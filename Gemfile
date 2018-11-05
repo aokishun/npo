@@ -3,8 +3,17 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.3'
 
+# 追加
+gem 'jquery-rails'
+##
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
+
+#追加
+gem 'bootstrap-sass'
+gem 'sprockets'
+##
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server

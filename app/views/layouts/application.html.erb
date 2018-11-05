@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Npo</title>
+    <meta charset="utf-8">
+    <title>Harukun</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="//maps.google.com/maps/api/js?key=<%= ENV['AIzaSyARKf8NDwzTZiU0PStNODA4DqzIeWv2_54'] %>"></script>
+    <script src="//cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script>
   </head>
 
   <body>
+    <div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+			<h1 id="fh5co-logo"><a href="index.html"><img src="assets/logo.jpg" width = "190" height = "195"></a></h1>
+			<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+          <li class="fh5co-active"><%= link_to "ホーム", root_path %></li>
+          <li><%= link_to "ご挨拶", greeting_path %></li>
+          <li><%= link_to "お問い合わせ", inquiry_path %></li>
+          <li><%= link_to "イベント", event_path %></li>
+				</ul>
+			</nav>
+    </div>
+    </aside>
     <%= yield %>
   </body>
 </html>
