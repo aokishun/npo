@@ -7,7 +7,6 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <!-- jquery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -18,10 +17,13 @@
   </head>
 
   <body>
-    <%= render "shared/sidebar" %>
+     <%= render "shared/sidebar" %>
+
     <div id="fh5co-main">
-      <%= yield %>
+      <%= render "shared/screen" %>
       <%= render "shared/footer" %>
+      <%= yield %>
+
     </div>
   </body>
 </html>
