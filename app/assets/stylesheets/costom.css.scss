@@ -301,6 +301,21 @@ figure figcaption {
 }
 /*end*/
 
+/*書き足し*/
+#fh5co-main .fh5co-narrow-content_2 {
+  position: relative;
+  width: 93%;
+  margin: 0 auto;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-main .fh5co-narrow-content_2 {
+    width: 100%;
+    padding: 0em 1em;
+  }
+}
+/*end*/
+
 #fh5co-hero {
   min-height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
@@ -1195,9 +1210,8 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 	padding-bottom:47px ;
 }
 .aboutus img {
-	padding:7px;
 	display:block;
-	border:1px solid #bab4bb;
+	// border:1px solid #bab4bb;
 }
 .aboutus .heading p{
 	padding-bottom:41px;
