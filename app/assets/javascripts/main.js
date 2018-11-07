@@ -155,7 +155,7 @@
 	});
 
 
-}());
+
 
 //スライド
 $(document).ready(function() {
@@ -213,3 +213,8 @@ $(document).ready(function() {
 	});
 });
 //スライド
+
+
+
+
+}());
