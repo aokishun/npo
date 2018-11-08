@@ -217,34 +217,5 @@ $(document).ready(function() {
 
 // メニューチェンジ
 
-function menu_change(side_menu){
-	swich (side_menu){
-		case "root":
-		$('root').addClass('.fh5co-active');
-		$('greeting').removeClass('.fh5co-active');
-		$('event').removeClass('.fh5co-active');
-		$('contact').removeClass('.fh5co-active');
-		break;
-		case "greeting":
-		$('greeting').addClass('.fh5co-active');
-		$('root').removeClass('.fh5co-active');
-		$('event').removeClass('.fh5co-active');
-		$('contact').removeClass('.fh5co-active');
-		break;
-		case "event":
-		$('event').addClass('.fh5co-active');
-		$('greeting').removeClass('.fh5co-active');
-		$('root').removeClass('.fh5co-active');
-		$('contact').removeClass('.fh5co-active');
-		break;
-		case "contact":
-		$('contact').addClass('.fh5co-active');
-		$('greeting').removeClass('.fh5co-active');
-		$('event').removeClass('.fh5co-active');
-		$('contact').removeClass('.fh5co-active');
-		break;
-	}
-}
-// end
 
 }());

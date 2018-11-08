@@ -5,16 +5,14 @@
     <title>Harukun</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-
-
     <!-- jquery -->
-    <script type="text/javascript" src="../script.js"></script>
+     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- <script type="text/javascript" src="../script.js"></script> -->
     <!-- end -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="//maps.google.com/maps/api/js?key=<%= ENV['AIzaSyARKf8NDwzTZiU0PStNODA4DqzIeWv2_54'] %>"></script>
-    <script src="//cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script>
+    <script src="//cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script> -->
   </head>
 
   <body>
