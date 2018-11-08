@@ -5,6 +5,9 @@ ruby '2.3.3'
 
 # 追加
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
+gem 'bootstrap-sass'
+gem 'jquery-turbolinks'
 ##
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
