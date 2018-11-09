@@ -4,12 +4,17 @@
 
     <h1 id="fh5co-logo"><a href="index.html"><img src="assets/logo.jpg" width = "190" height = "195"></a></h1>
     <nav id="fh5co-main-menu" role="navigation">
+
+      <div class="gnavi">
       <ul>
-        <li class="fh5co-active"><%= link_to "ホーム", root_path %></li>
-        <li class="fh5co-active"><%= link_to "ご挨拶", greeting_path %></li>
-        <li class="fh5co-active"><%= link_to "お問い合わせ", contact_path %></li>
-        <li class="fh5co-active"><%= link_to "イベント", event_path %></li>
+        <li class="fh5co-active"><a href="top.html.erb">ホーム</a></li>
+        <li class="fh5co-active"><a href="greeting.html.erb">ご挨拶</a></li>
+        <li class="fh5co-active"><a href="contact.html.erb">お問い合わせ</a></li>
+        <li class="fh5co-active"><a href="event.html.erb">イベント</a></li>
       </ul>
+    </div>
+    <div class="pageDisplay">
+    </div>
     </nav>
   </aside>
 </div>
