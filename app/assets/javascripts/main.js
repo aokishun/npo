@@ -215,8 +215,7 @@ $(document).ready(function() {
 //end
 
 
-// ajax使用
-$(function(){
+// ajax_test
 	//ページを表示させる箇所の設定
 	var $content = $('.pageDisplay');
 	//ボタンをクリックした時の処理
@@ -237,15 +236,15 @@ $(function(){
 
 	});
 	//初期設定
-	getPage("top.html.erb");
-	var lastpage = "top.html.erb";
+	getPage("top.html");
+	var lastpage = "top.html";
 
 	//ページを取得してくる
     function getPage(elm){
     	$.ajax({
             type: 'GET',
             url: elm,
-            dataType: 'html.erb',
+            dataType: 'html',
             success: function(data){
                 $content.html(data).fadeIn(600);
             },
@@ -254,6 +253,6 @@ $(function(){
                    }
     	});
     }
-});
+
 
 }());

@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def top
+
   end
 
   def greeting
@@ -9,6 +10,10 @@ class HomeController < ApplicationController
   end
 
   def event
+  end
+
+  def ajax
+
   end
 
 end
