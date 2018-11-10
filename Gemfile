@@ -8,6 +8,8 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'bootstrap-sass'
 gem 'jquery-turbolinks'
+
+gem 'rake'
 ##
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
