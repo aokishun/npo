@@ -16,7 +16,7 @@ gem 'rake'
 gem 'rails', '5.2.1'
 
 #追加
-gem 'bootstrap-sass'
+# gem 'bootstrap-sass'
 gem 'sprockets'
 ##
 # Use sqlite3 as the database for Active Record
